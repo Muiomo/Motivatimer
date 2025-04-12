@@ -65,7 +65,7 @@
   width: 80%;
   /*border: solid 2px red;*/
   display: flex;
-  margin-top: 400px;
+  margin-top: 320px;
   margin-right: -10;
   margin-left: 10%;
   padding: auto;
@@ -109,16 +109,19 @@
   border-right: solid red 7px;
   border-bottom: solid black 5px;
   border-left: solid black 3px;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
 }
 #iniciar:hover{
   border-right: solid red 7px;
   border-bottom: solid black 5px;
   border-left: solid black 3px;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
 }
 #pausar:hover{
   border-right: solid red 7px;
   border-bottom: solid black 5px;
   border-left: solid black 3px;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
 #mensagem{
@@ -129,9 +132,39 @@
   opacity: 0.5;
 }
 
+#musicas{
+  text-align: center;
+  margin: 15px;
+  color: white;
+  font-weight: bold;
+  user-select: none;
+}
+
+
+button{
+  padding: 5px;
+  height: auto;
+  width: 100%;
+  background: #E56B6F;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-top: solid #FFA5A5 2px;
+  border-right: solid #c14444 6px;
+  border-bottom: solid #843131 5px;
+  border-left: solid #000000 3px;
+  cursor: pointer;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+}
+
 footer{
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+}
+#instrucao{
+ color: #355070;
+ opacity: 0.2;
 }
 
 
