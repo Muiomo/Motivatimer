@@ -82,3 +82,17 @@ function mudarmsg(){
 }
 mudarmsg()
 
+function tocar(){
+  const musica = document.getElementById("musica")
+  const instrucao = document.getElementById("instrucao").innerHTML="Clique duas vezes para parar"
+musica.play()
+}
+
+function parar(){
+  const musica = document.getElementById("musica")
+  const instrucao = document.getElementById("instrucao").innerHTML="Clique uma vez para tocar"
+musica.pause()
+}
+
+
+
